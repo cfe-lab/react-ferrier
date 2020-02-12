@@ -1,8 +1,8 @@
-# react-ferrier
+# react-ferry
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cfe-lab/react-ferrier/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cfe-lab/react-ferry/blob/master/LICENSE)
 
-**React Ferrier** is a collection of utilities for connecting React interfaces to a RESTful API.
+**React Ferry** is a collection of utilities for connecting React interfaces to a RESTful API.
 
 While not necessary, it also works well with React Router.
 
@@ -52,7 +52,7 @@ You may cancel an API request before it finishes.
 
 For debugging purposes, you can enable logging.
 
-    import {enableLogging, disableLogging} from 'react-ferrier/json-api'
+    import {enableLogging, disableLogging} from 'react-ferry/json-api'
     
     enableLogging(); // send debugging messages to console.log
     disableLogging(); // cancel debugging messages
@@ -152,7 +152,7 @@ Usage with React-Router
      
 Set application-wide settings using `configureDefaults`
 
-    import {configureDefaults} from 'react-ferrier/loader-hoc'
+    import {configureDefaults} from 'react-ferry/loader-hoc'
     
     // Set a global data postprocessor:
     configureDefaults({ 
