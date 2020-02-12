@@ -2,7 +2,7 @@
   "name": "react-ferry",
   "version": "0.1",
   "description": "JSON API developed originally for BC-CfE's QAI System",
-  "homepage": "https://github.com/cfe-lab/react-ferrier",
+  "homepage": "https://github.com/cfe-lab/react-ferry",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
