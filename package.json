@@ -1,6 +1,6 @@
 {
   "name": "react-ferrier",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JSON API developed originally for BC-CfE's QAI System",
   "homepage": "https://github.com/cfe-lab/react-ferrier",
   "main": "dist/index.js",
