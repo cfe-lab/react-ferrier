@@ -1,4 +1,4 @@
-import pathToRegexp from "path-to-regexp";
+import {compile} from "path-to-regexp";
 
 /**
  * Taken from react-router
@@ -11,7 +11,7 @@ let cacheCount = 0;
 function compilePath(path: string) {
     if (cache[path]) return cache[path];
 
-    const generator = pathToRegexp.compile(path);
+    const generator = compile(path);
 
     if (cacheCount < cacheLimit) {
         cache[path] = generator;
