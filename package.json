@@ -18,7 +18,7 @@
     "@types/history": "^4.7.4",
     "@types/react": "^16.9.19",
     "history": "^4.7.2",
-    "path-to-regexp": "^6.1.0",
+    "path-to-regexp": "^8.0.0",
     "react": "^16.12.0"
   }
 }
